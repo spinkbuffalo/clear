@@ -1,0 +1,25 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx -n '--experimental-vm-modules --no-warnings' jest --colors "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
