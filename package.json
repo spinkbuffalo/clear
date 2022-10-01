@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "cleart": "./bin/index.js"
+  },
   "scripts": {
     "test": "npx --node-options '--experimental-vm-modules --no-warnings' jest --colors"
   },
