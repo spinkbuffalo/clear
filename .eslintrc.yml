@@ -16,4 +16,6 @@ plugins:
 
 rules: 
   import/extensions: off
+  ident: [0, "tab"]
+  indent: ['error', 4]
   
