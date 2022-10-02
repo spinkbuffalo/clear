@@ -1,3 +1,5 @@
-import app from './src/index.js';
+import * as dotenv from 'dotenv';
 
-export default app;
+dotenv.config();
+
+console.log(process.env.PORT);
